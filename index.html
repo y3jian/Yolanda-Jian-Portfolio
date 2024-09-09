@@ -22,24 +22,72 @@
     </nav>
         <nav id = "hamburger-nav">
             <div class = "logo"> Yolanda Jian </div>
+            <div class = "hamburger-menu">
             <div class = "hamburger-icon" onclick = "toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
 
-                <div class = "menu-links">
-                    <li><a href = "#about" onclick = "toggleMenu()"> About </a></li>
-                    <li><a href = "#experience" onclick = "toggleMenu()"> Experience </a></li>
-                    <li><a href = "#project" onclick = "toggleMenu()"> Project </a></li>
-                    <li><a href = "#contact" onclick = "toggleMenu()"> Contact </a></li>
-
-                </div>
-
+            <div class = "menu-links">
+                <li><a href = "#about" onclick = "toggleMenu()"> About </a></li>
+                <li><a href = "#experience" onclick = "toggleMenu()"> Experience </a></li>
+                <li><a href = "#project" onclick = "toggleMenu()"> Project </a></li>
+                <li><a href = "#contact" onclick = "toggleMenu()"> Contact </a></li>
 
             </div>
-        </nav>
+        </div>
+    </nav>
 
+    <!-- 1727 by 2431 pixels -->
+
+    <section id = "profile">
+    <div class = "section_pic-container">
+
+        <img src = "./assets/profile_pic.jpg" 
+        alt = "Yolanda Jian Profile Picture"
+        style="width: 500px; height: 500px;" 
+        
+        ></img>
+    </div>
+    <div class = "section__text">
+        <p class = "section__text__p1"> Hello, I'm</p>
+        <h1 class = "title"> Yolanda Jian</h1>
+        <p class = "section__text__p2"> Management Engineering Student at the University of Waterloo</p>
+        <div class = "btn-container">
+
+            <!-- download resume button -->
+            <button 
+            class = "btn btn-color-2" 
+            onclick = "window.open('./assets/Yolanda Jian Resume 2024pdf.pdf')">Download Resume</button>
+
+            <!-- contact button -->
+            <button class = "btn btn-color-1" 
+            onclick = "location.href = './#contact'">Contact Info
+        </button>
+        </div>
+    
+    <div id = "socials-container">
+        <!-- LINKEDIN -->
+        <img 
+        src = "./assets/linkedin.png" 
+        alt = "My LinkedIn profile"
+        class = "icon" 
+        onclick = "location.href = 'https://www.linkedin.com/in/yolandajian/'"
+        />
+        
+        <!-- GITHUB -->
+        <img 
+        src = "./assets/github.png" 
+        alt = "My Github profile"
+        class = "icon" 
+        onclick = "location.href = 'https://github.com/y3jian'"
+        />
+   
+    </div>
+</div>
+
+</section>
 
     <script src="script.js"></script>
 </body>
