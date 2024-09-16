@@ -32,7 +32,7 @@
             <div class = "menu-links">
                 <li><a href = "#about" onclick = "toggleMenu()"> About </a></li>
                 <li><a href = "#experience" onclick = "toggleMenu()"> Experience </a></li>
-                <li><a href = "#project" onclick = "toggleMenu()"> Project </a></li>
+                <li><a href = "#projects" onclick = "toggleMenu()"> Projects </a></li>
                 <li><a href = "#contact" onclick = "toggleMenu()"> Contact </a></li>
 
             </div>
@@ -42,11 +42,13 @@
    
 
     <section id = "profile">
-    <div class = "section_pic-container">
+    <div class = "section__pic-container">
 
         <img src = "./assets/profile_pic.jpg" 
         alt = "Yolanda Jian Profile Picture"
-        style="width: 500px; height: 500px;" 
+        class = "profile-pic"
+        
+        
         
         ></img>
     </div>
@@ -59,7 +61,7 @@
             <!-- download resume button -->
             <button 
             class = "btn btn-color-2" 
-            onclick = "window.open('./assets/Yolanda Jian Resume 2024pdf.pdf')">Download Resume</button>
+            onclick = "window.open('./assets/Yolanda Jian Resume 2024pdf.pdf')">Resume</button>
 
             <!-- contact button -->
             <button class = "btn btn-color-1" 
@@ -98,13 +100,13 @@
             src = "./Assets/about-me-pic.JPG"
             alt = "Profile picture"
             class = "about-pic"
-            style="width: 400px; height: 458px;" 
+            
             />
         </div>
 
         <div class = "about-details-container">
             <div class = "about-containers">
-                <div class = "details-container">
+                <div class = "details-containers">
                     <img 
                     src = "./Assets/experience.png"
                     alt = "Experience icon"
@@ -112,11 +114,11 @@
                     />
 
                     <h3>Experience</h3>
-                    <p> somethingfgfhcv <br /> somethingbhjbghkjk </p>
+                    <p> Previously a Junior Research Analyst @ Canada Revenue Agency </p>
 
                 </div>
 
-                <div class = "details-container">
+                <div class = "details-containers">
                     <img 
                     src = "./Assets/education.png"
                     alt = "Education icon"
@@ -124,7 +126,7 @@
                     />
 
                     <h3>Education</h3>
-                    <p> somethingcfgthnjgv <br /> somethingbhjvvghv </p>
+                    <p> Candidate for BASc Management Engineering - Honours Co-op</p>
 
                 </div>
 
@@ -132,10 +134,20 @@
 
             <div class = "text-container">
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda consequatur labore voluptates quas
-                    quo maxime laborum? Vel magni inventore sequi. Quisquam quam eum in sapiente veniam odit nemo corrupti 
-                    alias animi fugit obcaecati sit, similique, non ipsa inventore adipisci aut incidunt quae at itaque! 
-                    Dolorem cum laboriosam ipsa commodi eum!
+                    <ul>I'm <b>Yolanda</b>. A <b>developer</b>, <b>analyst</b>, and <b>creative spirit</b> dedicated to leveraging data to optimize operational efficiency.
+                    <br /><br /><b>I am also...</b><br> 
+                    <li>An Executive Technical Content Creator at the UW Data Science Club.</li>
+                    <li>An innovator at UW Greenhouse.</li>
+                    <li>A dedicated community servant as an Ontario Volunteering Award recipient.</li>
+                    <br>
+
+                    <b>Previously, I was...</b><br> 
+                    <li>A Junior Research Analyst sucessfully improving operational digitization by 10% using GenAI and data analytics at the CRA.</li>
+                    <li>A Software Developer automating systems and reducing average work-time by 1 hour per day in the accounting department at Service Parfait.</li>
+                    <li>A director for Waterloo's Engineering Society.</li>
+                    <br>
+                    In my free time, I enjoy dancing, reading, and spending time with my friends and family. Feel free to reach out!
+                </ul>
                 </p>
             </div>
 
@@ -156,6 +168,7 @@
     <h1 class = "title">Experience</h1>
     <div class = "experience-details-container">
         <div class = "about-containers">
+            
             <div class = "details-containers">
                 <h2 class = "experience-sub-title">Skills</h2>
                 <div class = "article-container">
@@ -168,8 +181,8 @@
                         class = "icon"
                         />
                         <div>
-                            <h3>Java</h3>
-                            <p>...</p>
+                            <h3>Languages</h3>
+                            <p>Python, Java, JavaScript, SQL, SAS, R, VBA, HTML, CSS, Swift, Git</p>
                         </div>
                     </article>
 
@@ -180,96 +193,12 @@
                         class = "icon"
                         />
                         <div>
-                            <h3>Python</h3>
-                            <p>...</p>
+                            <h3>Dev Tools & Cloud Platforms</h3>
+                            <p>Github, VS Code, Bracket, AWS, Microsoft Azure</p>
                         </div>
                     </article>
 
-                    <article>
-                        <img 
-                        src = "./Assets//checkmark.png"
-                        alt = "Experience icon"
-                        class = "icon"
-                        />
-                        <div>
-                            <h3>SQL</h3>
-                            <p>...</p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <img 
-                        src = "./Assets//checkmark.png"
-                        alt = "Experience icon"
-                        class = "icon"
-                        />
-                        <div>
-                            <h3>SAS</h3>
-                            <p>...</p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <img 
-                        src = "./Assets//checkmark.png"
-                        alt = "Experience icon"
-                        class = "icon"
-                        />
-                        <div>
-                            <h3>R</h3>
-                            <p>...</p>
-                        </div>
-                    </article>
-
-                    <!-- 2nd skill -->
-                    <article>
-                        <img 
-                        src = "./Assets/checkmark.png"
-                        alt = "Experience icon"
-                        class = "icon"
-                        />
-                        <div>
-                            <h3>JavaScript</h3>
-                            <p>...</p>
-                        </div>
-                    </article>
                     
-
-                </div>
-            </div>
-
-            <div class = "details-containers">
-                <h2 class = "experience-sub-title">Skills2</h2>
-                <div class = "article-container">
-
-
-                    <!-- 4th skill -->
-                    <article>
-                        <img 
-                        src = "./Assets/checkmark.png"
-                        alt = "Experience icon"
-                        class = "icon"
-                        />
-                        <div>
-                            <h3>Web Development</h3>
-                            <p>HTML, CSS </p>
-                        </div>
-                    </article>
-
-                    <!-- 5th skill -->
-                    <!-- 4th skill -->
-                    <article>
-                        <img 
-                        src = "./Assets/checkmark.png"
-                        alt = "Experience icon"
-                        class = "icon"
-                        />
-                        <div>
-                            <h3>Engineering Tools</h3>
-                            <p>Github, AutoCAD, Arduino, Processing</p>
-                        </div>
-                    </article>
-
                     <article>
                         <img 
                         src = "./Assets/checkmark.png"
@@ -282,7 +211,6 @@
                         </div>
                     </article>
 
-                    <!-- 6th skill -->
                     <article>
                         <img 
                         src = "./Assets/checkmark.png"
@@ -290,10 +218,44 @@
                         class = "icon"
                         />
                         <div>
-                            <h3>Cloud Platforms</h3>
-                            <p>AWS, Microsoft Azure</p>
+                            <h3>Engineering Tools</h3>
+                            <p>AutoCAD, Arduino, Processing</p>
                         </div>
                     </article>
+
+                    
+
+                </div>
+            </div>
+
+            <div class = "details-containers">
+                <h2 class = "experience-sub-title">Credentials</h2>
+                <div class = "article-container">
+
+                    <article>
+                        <img 
+                        src = "./Assets/checkmark.png"
+                        alt = "Experience icon"
+                        class = "icon"
+                        />
+                        <div>
+                            <h3>Courses</h3>
+                            <p>Data Structures and Algorithms, Probability and Statistics, Financial Economics for Engineers</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img 
+                        src = "./Assets/checkmark.png"
+                        alt = "Experience icon"
+                        class = "icon"
+                        />
+                        <div>
+                            <h3>Awards</h3>
+                            <p>1st Place @ UofT Global Engineering Hackathon, 2nd Place @ UW WiE Greenhouse Hackathon, 5 Year Ontario Volunteer Service Award</p>
+                        </div>
+                    </article>
+
                 </div>
             </div>
             
@@ -327,18 +289,16 @@
                 
                 />
             </div>
-            <h2 class = "experience-sub-title project-title">UW Garbage Disposal Tracker</h2>
+            <h2 class = "experience-sub-title project-title">Waste Tracker</h2>
+            <h4>HTML, CSS, JavaScript, Arduino, Data Analysis, Data Visualization</h4>
+            <h5><br></h5>
             <div class = "btn-container">
                 <button 
                 class = "btn btn-color-2 project-btn" 
-                onclock = location.href= 'https://github.com/'">
+                onclick = "location.href= 'https://github.com/y3jian/WiE-Greenhouse-Hackathon/tree/main'">
             Github
             </button>
-            <button 
-                class = "btn btn-color-2 project-btn" 
-                onclock = location.href= 'https://github.com/'">
-            About
-            </button>
+            
             </div>
         </div>
 
@@ -353,17 +313,15 @@
                 />
             </div>
             <h2 class = "experience-sub-title project-title">Financial Planner</h2>
+            <h4>VBA, Pivot Tables, VLookup</h4>
+            <h4><br></h4>
             <div class = "btn-container">
                 <button 
                 class = "btn btn-color-2 project-btn" 
-                onclock = location.href= 'https://github.com/'">
-            Github
+                onclick = "location.href= 'https://drive.google.com/file/d/1YjZcgiz173c_tS4GQyGVfFC0Qw2ZUQix/view?usp=drive_link'">
+            Download
             </button>
-            <button 
-                class = "btn btn-color-2 project-btn" 
-                onclock = location.href= 'https://github.com/'">
-            About
-            </button>
+            
             </div>
         </div>
 
@@ -378,22 +336,27 @@
                 />
             </div>
             <h2 class = "experience-sub-title project-title">Airport Simulator</h2>
+            <h4>Java, Object Oriented Programming, Stacks and Queues, Files</h4>
+            <h4><br></h4>
             <div class = "btn-container">
                 <button 
                 class = "btn btn-color-2 project-btn" 
-                onclock = location.href= 'https://github.com/y3jian/Airport-Simulator'">
+                onclick = "location.href= 'https://github.com/y3jian/Airport-Simulator'">
             Github
             </button>
-            <button 
-                class = "btn btn-color-2 project-btn" 
-                onclock = location.href= 'https://github.com/'">
-            About
-            </button>
+            
             </div>
         </div>
 
     </div>
     </div>
+
+    <div class = "btn-container">
+        <button 
+        class = "btn btn-color-2 project-btn" 
+        onclick = "location.href= 'https://drive.google.com/drive/folders/1u_OxYrS2m5FGCapHACoQmRRYuzObaHYS?usp=drive_link'">
+    More
+    </button>
 
     <img 
     src = "./Assets/arrow.png" 
@@ -412,24 +375,36 @@
             <img 
             src = "./assets/email.png"
             alt = "Email icon"
-            class = "icon contact-icon"
+            class = "icon contact-icon email-icon"
             />
             <p><a href = "mailto:yolandajian8@gmail.com">yolandajian8@gmail.com</a></p>
         </div>
-    </div>
+    
 
-    <div class = "contact-info-upper-container">
         <div class = "contact-info-container">
             <img 
-            src = "./assets/email.png"
+            src = "./assets/linkedin.png"
             alt = "LinkedIn icon"
             class = "icon contact-icon"
             />
             <p><a href = "https://www.linkedin.com/in/yolandajian/">LinkedIn</a></p>
         </div>
     </div>
-
 </section>
+
+<footer>
+    <nav>
+        <div class = "nav-links-container">
+            <ul class = "nav-links">
+                <li><a href = "#about"> About </a></li>
+                <li><a href = "#experience"> Experience </a></li>
+                <li><a href = "#projects"> Projects </a></li>
+                <li><a href = "#contact"> Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>&#169; 2024 Yolanda Jian.</p>
+</footer>
 
     <script src="script.js"></script>
 </body>
